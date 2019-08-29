@@ -1,0 +1,6 @@
+mybatis:
+  #类型转换的包路径
+  type-handlers-package: com.ljw.springbootmybatis.handler
+  configuration:
+    #下划线写法转驼峰写法
+    map-underscore-to-camel-case: true
